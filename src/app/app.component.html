@@ -1,0 +1,25 @@
+
+
+
+<div class="bb">
+  <div class="container">
+    <mat-card *ngFor="let paciente of data">
+      <mat-card-title> {{ paciente.apellidos }} {{ paciente.nombres }}</mat-card-title>
+      <mat-card-subtitle>{{ paciente.correo }}</mat-card-subtitle>
+      <mat-card-actions>
+        <mat-card-content>
+          <div>{{ paciente.direccion }}</div>
+          <div>{{ paciente.dni }}</div>
+          <div>{{ paciente.edad }}</div>
+          <div>{{ paciente.sexo }}</div>
+          <div>{{ paciente.telefono }}</div>
+          <div>{{ paciente.tipo_sangre }}</div>
+        </mat-card-content>
+        <!-- <button mat-button>LIKE</button>
+        <button mat-button>SHARE</button> -->
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>
+
+

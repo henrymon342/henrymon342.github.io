@@ -1,0 +1,18 @@
+.container{
+  background-color: #F4D06F;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5em;
+  text-align: center;
+  margin: 5em;
+}
+
+.bb{
+  background-color: #F4D06F;
+
+}
+
+mat-card-content{
+  display: block;
+  background-color: #FFF8F0;
+}
